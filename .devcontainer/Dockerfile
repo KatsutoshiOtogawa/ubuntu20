@@ -47,3 +47,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
 USER $USERNAME
 
 ENV DEBIAN_FRONTEND=dialog
+
+# [Optioinal] Set the mount point you want to use from docker-compose
+
+VOLUME /workspaces/ubuntu/data/output

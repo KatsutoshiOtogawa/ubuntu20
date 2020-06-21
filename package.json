@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "validator": "^13.1.1",
+    "youtube-dl": "^3.0.2"
+  },
+  "scripts":{
+    "youtube-dl": "node index.js"
+  }
+}

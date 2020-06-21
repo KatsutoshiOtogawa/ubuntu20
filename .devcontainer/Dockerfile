@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
   && apt -y upgrade \
   && apt -y install git \
-  && apt -y install python3-pip \
+  && apt -y install python3-pip
   
 #    && apt-get -y install --no-install-recommends <your-package-list-here> \
 #    #

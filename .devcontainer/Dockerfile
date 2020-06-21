@@ -46,5 +46,10 @@ RUN groupadd --gid $USER_GID $USERNAME \
 # [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
 
+RUN yarnpkg install
+
 ENV DEBIAN_FRONTEND=dialog
 
+# [Optioinal] Set the default Volume you want to use.omit if you want to keep the default docker volume
+
+Volume /Volumes/EXTERNAL_HDD/docker_volume

@@ -15,6 +15,7 @@ RUN apt-get update \
   && apt -y upgrade \
   && apt -y install git \
   && apt -y install python3-pip \
+  && apt -y install yarnpkg \
 #    && apt-get -y install --no-install-recommends <your-package-list-here> \
 #    #
 #    # Clean up
